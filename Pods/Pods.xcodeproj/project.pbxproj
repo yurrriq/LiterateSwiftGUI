@@ -1,0 +1,1043 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		024FD8DF100090110BFFA3C61FD20388 /* Library.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50F335E399B40E247564E2DA13DB891E /* Library.swift */; };
+		03D315CEBEAF771F50D5AC2CBB0BEAD4 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 759930A8385A74B2D7F321929F98BCFC /* Cocoa.framework */; };
+		04384D2DFC886751D6F7682C087CDEBC /* commonmark.c in Sources */ = {isa = PBXBuildFile; fileRef = AAFD023DD38788C53B7F42136856E715 /* commonmark.c */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		051B8C934F8180931528A144F8CAADE6 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 759930A8385A74B2D7F321929F98BCFC /* Cocoa.framework */; };
+		090513AD274CC87A51865D064AF66589 /* cmark-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 24C14E6ED869A63EAC0BE0F69E711EC7 /* cmark-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0B4CDD1B1218D7C27FC1653B8B611927 /* LiterateSwift.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3E6288CDAB61EF0F6BDF86E2B268D6D /* LiterateSwift.swift */; };
+		1134731967313AAD4848022BFD15AEC3 /* houdini.h in Headers */ = {isa = PBXBuildFile; fileRef = 8DC6372149C747C1DFAB5217C0C6DF27 /* houdini.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		11FCEF993C1CBC8B3067CE4012A46F45 /* CommonMark.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A8A08BBC97A4476F574B0964849B52B2 /* CommonMark.framework */; };
+		12B49AD81AF1BB6E9DE43BDBDFF1A57D /* LiterateSwift-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 55EC1F8FE1FC019A16DCA699DC587259 /* LiterateSwift-dummy.m */; };
+		1B4FBA38128052251E4945D6BF3F5369 /* scanners.c in Sources */ = {isa = PBXBuildFile; fileRef = D73FE40EDD932020B82C82FE0786E654 /* scanners.c */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		25C4C5382681A0917306B83CD1E621E5 /* cmark_ctype.c in Sources */ = {isa = PBXBuildFile; fileRef = 5304999A66AB5C5386BF209B897DB1CD /* cmark_ctype.c */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		2941B2C13CE524E653B2978F851F225A /* iterator.h in Headers */ = {isa = PBXBuildFile; fileRef = 5D3319D6345529DF62C987CE027AE290 /* iterator.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		2DEDFE883764C7EECEB4B1A10CAB0108 /* main.c in Sources */ = {isa = PBXBuildFile; fileRef = 033CAD4829DF81E1EF28EB71670915F6 /* main.c */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		304F67F2D2E901B777DBEFC69EBCED7A /* ASTOperations.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58D0AB1E2751EEDDE5576ABB83214F8A /* ASTOperations.swift */; };
+		320D5503178F1AD2F6CB8AEAD8A726FF /* latex.c in Sources */ = {isa = PBXBuildFile; fileRef = 3F3330FD3B6D8E6827F1B8CF5B94EDE1 /* latex.c */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		39806EDFEF0029A5E9A4120C8FCE3A9C /* blocks.c in Sources */ = {isa = PBXBuildFile; fileRef = 00D9FAC88471F4FF76E4F9CE40F2415B /* blocks.c */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		3BA789A11D1FC5BC84C23865F0CBB4EC /* html.c in Sources */ = {isa = PBXBuildFile; fileRef = E00AFF8243DCF5E10200AE8EF506FE60 /* html.c */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		3FC6BF2F2CAB4A23821CF992F59525DF /* node.h in Headers */ = {isa = PBXBuildFile; fileRef = 534F7ABD7C08BB38FA9A769720ADE072 /* node.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		467B00236B9FD4AB721CDE287516A62D /* chunk.h in Headers */ = {isa = PBXBuildFile; fileRef = DFEE5BD6ECC210A88332EA1D0D50A924 /* chunk.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		4721ECAD20E6BE5A8229BFD69A711409 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 759930A8385A74B2D7F321929F98BCFC /* Cocoa.framework */; };
+		4DF73654C51018385A9192198479A13A /* CommonMark-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = C6234945E26A0A9E54AA5193E62C41E0 /* CommonMark-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5332BCD8BCF79A6FC54EC693BB08A792 /* cmark.c in Sources */ = {isa = PBXBuildFile; fileRef = E44B848C162BA337767DE7C2A0707A17 /* cmark.c */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		552F8270FFC3DC5AF00679B5596C0BE6 /* buffer.h in Headers */ = {isa = PBXBuildFile; fileRef = B076CEF5E39887F02B9B77FA746D40AC /* buffer.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		5B6A2C7376378780132BBF70CE572623 /* cmark_ctype.h in Headers */ = {isa = PBXBuildFile; fileRef = 442A1666F6061E6AC7359AA668537A40 /* cmark_ctype.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		62645BAF58FCBE2B3B0670DCECEADDDB /* houdini_html_e.c in Sources */ = {isa = PBXBuildFile; fileRef = C17F99FDB0321439426E56BFF6918224 /* houdini_html_e.c */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		66414D139C9A307B45A706340D73A5BC /* references.c in Sources */ = {isa = PBXBuildFile; fileRef = FB7FA73B01E791E54B7B4DCBED338CE1 /* references.c */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		6BE821C1946700BC55687230682BCA45 /* config.h in Headers */ = {isa = PBXBuildFile; fileRef = 2E6A05373BD100E28BBAA36F86B2AC30 /* config.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		70801ABCF80729621CDD787BAD433896 /* CommonMark-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = EE878F20A0DEF95F6F082CAAE58574AA /* CommonMark-dummy.m */; };
+		7384203BB7A9D0C770C10F40D14B2877 /* inlines.c in Sources */ = {isa = PBXBuildFile; fileRef = 44176EE78B0C3B0AEBC71F9957FC5A2A /* inlines.c */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		77CB2BC79F1519F09DCEC4479669CFA9 /* Pods-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 2BCC458FDD5F692BBB2BFC64BB5701FC /* Pods-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		77DE8B8A4E3EDAF5BE8888A90BA426D9 /* entities.inc in Sources */ = {isa = PBXBuildFile; fileRef = 1CF328D28E0500126A7275F6DB5666FA /* entities.inc */; };
+		78EDD48FDEA0A4DCE1E96770480AF0B1 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 759930A8385A74B2D7F321929F98BCFC /* Cocoa.framework */; };
+		7BCB342E8D8B6579CBB80F5975E23253 /* node.c in Sources */ = {isa = PBXBuildFile; fileRef = 842E263E35B6DFCC9EDCA3EA482305DC /* node.c */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		83F95854A75BD12BBF96AFB89544CB16 /* LiterateSwift-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 7A99A4A34BF0B95102E89A11D422B38B /* LiterateSwift-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		849A48EE18C058EE286689404341CE9D /* xml.c in Sources */ = {isa = PBXBuildFile; fileRef = 9AA3180694374A373206489945EAA65C /* xml.c */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		873F9C98C6ADAA345F42273D83275A33 /* cmark_version.h in Headers */ = {isa = PBXBuildFile; fileRef = AD87329234799149DA181F1282908240 /* cmark_version.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8BB35B3DD6096486B730F12D36D01542 /* houdini_html_u.c in Sources */ = {isa = PBXBuildFile; fileRef = BAC9169F6C16E723AFAB64399D7008A4 /* houdini_html_u.c */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		8EBCA9142577F2643980E813A968393F /* Node.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A0A95335D5E0C9045A57F3ADCB4C989 /* Node.swift */; };
+		8FA9EDA5FC76E477D461AAD16FC6F26A /* case_fold_switch.inc in Sources */ = {isa = PBXBuildFile; fileRef = 1A0F9180DC7CF1CFB4EDA8C57E39E119 /* case_fold_switch.inc */; };
+		9164FDBF67CBB2EFAF3E9635DE4ACAE6 /* CLI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DB7B436F0DE8A12C9CED8DD8B623FBD /* CLI.swift */; };
+		A103EA11B68F5F4FC041F3CFA40256E7 /* references.h in Headers */ = {isa = PBXBuildFile; fileRef = 0FCDED9D174CDB7428845F7ADF1B0D7A /* references.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		A1068EA174B813FAFEC1E4D091918736 /* houdini_href_e.c in Sources */ = {isa = PBXBuildFile; fileRef = 4E0C1AFEF4E3B051B2C31376722BF397 /* houdini_href_e.c */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		A157AC77920028675199A87316938DA2 /* SwiftAST.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D566714DE732BF4D8EC3DC548D7F8EA /* SwiftAST.swift */; };
+		A794347DC34DF1874EF7A8114CC2A30F /* Evaluation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 113CA977AEDDCEB1DFF5806ED6E578BA /* Evaluation.swift */; };
+		AA2743C18444C7D5EFADF977A3DA732A /* render.h in Headers */ = {isa = PBXBuildFile; fileRef = DCD8FA1808FA38863AA51704D72CEA65 /* render.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		ABAE28DE8806CE12E46C39724A8DE33A /* Pods-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 894E5DA93A9F359521A89826BE6DA777 /* Pods-dummy.m */; };
+		AFCE7D4A7328E848A11635EF4821FBC9 /* Weave.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D95A3740C1E1346F8737C9AA60D5416 /* Weave.swift */; };
+		B0E08C0FA4E575C7582C6FF071CC65CB /* inlines.h in Headers */ = {isa = PBXBuildFile; fileRef = D341C0350426862B492B9614DB61926B /* inlines.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		B182D8F22E072BE566C46B1E79D08554 /* LiterateSwift.h in Headers */ = {isa = PBXBuildFile; fileRef = F7AA91632078F2F5FEE6957FB9DBD865 /* LiterateSwift.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B3C877254589AB17C804FD0A449D7DF3 /* bench.h in Headers */ = {isa = PBXBuildFile; fileRef = A0A5240568AC69B3516C7CCE5F814ADD /* bench.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		BD1BB21ACB475C0AED3721F0FA654412 /* iterator.c in Sources */ = {isa = PBXBuildFile; fileRef = CCC65B1DFB0A401179945B1DA3727C07 /* iterator.c */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		BEAA504959123435BF6AF1AF6E9BF7CC /* render.c in Sources */ = {isa = PBXBuildFile; fileRef = FB24EB3AC655A5CE5B9AC1B00C574516 /* render.c */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		C04005FABD574EB4562A689852DFFB35 /* buffer.c in Sources */ = {isa = PBXBuildFile; fileRef = 2BB503524BB7D79EAB5CF60A45C683D7 /* buffer.c */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		D7E6E6E2ABB6DE082B437C4A0E7381CB /* parser.h in Headers */ = {isa = PBXBuildFile; fileRef = A817FDC204E15B41C4DF8DA8DB1595BD /* parser.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		DEE628CF87BB3FD6A05DAF35E9775B01 /* cmark_export.h in Headers */ = {isa = PBXBuildFile; fileRef = E42D0DB8B4F3A2D58BBE1BA10FF6075F /* cmark_export.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		DEFC33AFAF9F86F1EADC93F098A3F30E /* man.c in Sources */ = {isa = PBXBuildFile; fileRef = ED32EFA1944BAE69FB70D6C9063F5446 /* man.c */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		EBFE3156666B6F33C7147D1B5C8AD734 /* cmark-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 418DDC426F2CEECB9B9625EACCD7A051 /* cmark-dummy.m */; };
+		EE09D79357C3FBFD361883DDB9CB08F0 /* utf8.c in Sources */ = {isa = PBXBuildFile; fileRef = B01D761A6F2862C4952E12A36147BFFB /* utf8.c */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		F1E20A665F7C379D4FE64842900AA219 /* cmark.h in Headers */ = {isa = PBXBuildFile; fileRef = 929857CCAD9DF86B0D95243C688DCDF9 /* cmark.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F263FC4FFAA0E48902857520D2D225DE /* cmark.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DCD327807646BAABBD1B360BBA39BDD7 /* cmark.framework */; };
+		F4064268240E88FBFB1A03684E5B6ED7 /* CommonMark.h in Headers */ = {isa = PBXBuildFile; fileRef = 6FB63D30FE91F1F03D85FC7C6D352050 /* CommonMark.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		FA1F131CE3ECC7B5AABFB921CAC701C4 /* scanners.h in Headers */ = {isa = PBXBuildFile; fileRef = 26501955D40C7A54B10C3039EE6CE3A0 /* scanners.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		FE104C44C93AAA5E46139249ED2CF1E0 /* utf8.h in Headers */ = {isa = PBXBuildFile; fileRef = 6950991904F4DAD2B813802F491FE734 /* utf8.h */; settings = {ATTRIBUTES = (Project, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		327FD7488479D69194A27D9052F1DB5C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6EF00BC6AD6FE77B99C8FE0E0C924EBA;
+			remoteInfo = cmark;
+		};
+		3CD8D4241E0F2BB3EC0C29349F390010 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6EF00BC6AD6FE77B99C8FE0E0C924EBA;
+			remoteInfo = cmark;
+		};
+		8A084DF1DA1FECCE822D8CCDB757BFEB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9D5BBF8E9202CD117DE7E23E429F2773;
+			remoteInfo = CommonMark;
+		};
+		C0E872DDB5F07934C1ACAC9BFA1CDD8C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9D5BBF8E9202CD117DE7E23E429F2773;
+			remoteInfo = CommonMark;
+		};
+		FFAF706CF9CC78F13A5D5EA81D980076 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 85BAD6FAD4E33B846C2BEDECE1068806;
+			remoteInfo = LiterateSwift;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		00D9FAC88471F4FF76E4F9CE40F2415B /* blocks.c */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.c; name = blocks.c; path = src/blocks.c; sourceTree = "<group>"; };
+		033CAD4829DF81E1EF28EB71670915F6 /* main.c */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.c; name = main.c; path = src/main.c; sourceTree = "<group>"; };
+		0FCDED9D174CDB7428845F7ADF1B0D7A /* references.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = references.h; path = src/references.h; sourceTree = "<group>"; };
+		113CA977AEDDCEB1DFF5806ED6E578BA /* Evaluation.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Evaluation.swift; path = LiterateSwift/Evaluation.swift; sourceTree = "<group>"; };
+		1A0F9180DC7CF1CFB4EDA8C57E39E119 /* case_fold_switch.inc */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.pascal; name = case_fold_switch.inc; path = src/case_fold_switch.inc; sourceTree = "<group>"; };
+		1CF328D28E0500126A7275F6DB5666FA /* entities.inc */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.pascal; name = entities.inc; path = src/entities.inc; sourceTree = "<group>"; };
+		24C14E6ED869A63EAC0BE0F69E711EC7 /* cmark-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "cmark-umbrella.h"; sourceTree = "<group>"; };
+		26501955D40C7A54B10C3039EE6CE3A0 /* scanners.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = scanners.h; path = src/scanners.h; sourceTree = "<group>"; };
+		2BB503524BB7D79EAB5CF60A45C683D7 /* buffer.c */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.c; name = buffer.c; path = src/buffer.c; sourceTree = "<group>"; };
+		2BCC458FDD5F692BBB2BFC64BB5701FC /* Pods-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-umbrella.h"; sourceTree = "<group>"; };
+		2D566714DE732BF4D8EC3DC548D7F8EA /* SwiftAST.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SwiftAST.swift; path = CommonMark/SwiftAST.swift; sourceTree = "<group>"; };
+		2E6A05373BD100E28BBAA36F86B2AC30 /* config.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = config.h; path = build/src/config.h; sourceTree = "<group>"; };
+		36B30B64168EBEF635005FA4BCEFE305 /* Pods.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		3F3330FD3B6D8E6827F1B8CF5B94EDE1 /* latex.c */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.c; name = latex.c; path = src/latex.c; sourceTree = "<group>"; };
+		418DDC426F2CEECB9B9625EACCD7A051 /* cmark-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "cmark-dummy.m"; sourceTree = "<group>"; };
+		44176EE78B0C3B0AEBC71F9957FC5A2A /* inlines.c */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.c; name = inlines.c; path = src/inlines.c; sourceTree = "<group>"; };
+		442A1666F6061E6AC7359AA668537A40 /* cmark_ctype.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = cmark_ctype.h; path = src/cmark_ctype.h; sourceTree = "<group>"; };
+		4DADA166CE6E415C6CF215FB102F3263 /* CommonMark.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = CommonMark.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		4DB7B436F0DE8A12C9CED8DD8B623FBD /* CLI.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CLI.swift; path = LiterateSwift/CLI.swift; sourceTree = "<group>"; };
+		4E0C1AFEF4E3B051B2C31376722BF397 /* houdini_href_e.c */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.c; name = houdini_href_e.c; path = src/houdini_href_e.c; sourceTree = "<group>"; };
+		50F335E399B40E247564E2DA13DB891E /* Library.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Library.swift; path = LiterateSwift/Library.swift; sourceTree = "<group>"; };
+		5304999A66AB5C5386BF209B897DB1CD /* cmark_ctype.c */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.c; name = cmark_ctype.c; path = src/cmark_ctype.c; sourceTree = "<group>"; };
+		534F7ABD7C08BB38FA9A769720ADE072 /* node.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = node.h; path = src/node.h; sourceTree = "<group>"; };
+		55EC1F8FE1FC019A16DCA699DC587259 /* LiterateSwift-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "LiterateSwift-dummy.m"; sourceTree = "<group>"; };
+		58D0AB1E2751EEDDE5576ABB83214F8A /* ASTOperations.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ASTOperations.swift; path = CommonMark/ASTOperations.swift; sourceTree = "<group>"; };
+		5D3319D6345529DF62C987CE027AE290 /* iterator.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = iterator.h; path = src/iterator.h; sourceTree = "<group>"; };
+		5D95A3740C1E1346F8737C9AA60D5416 /* Weave.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Weave.swift; path = LiterateSwift/Weave.swift; sourceTree = "<group>"; };
+		6950991904F4DAD2B813802F491FE734 /* utf8.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = utf8.h; path = src/utf8.h; sourceTree = "<group>"; };
+		6F75C546C2C238AB94FE52237B38BF9F /* LiterateSwift.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = LiterateSwift.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		6FB63D30FE91F1F03D85FC7C6D352050 /* CommonMark.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = CommonMark.h; path = CommonMark/CommonMark.h; sourceTree = "<group>"; };
+		705FE516C540F402DDF9B930D2EC59D2 /* cmark.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = cmark.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		7531D9651EDCF0BD87CC188A4222C31F /* LiterateSwift-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "LiterateSwift-prefix.pch"; sourceTree = "<group>"; };
+		759930A8385A74B2D7F321929F98BCFC /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.11.sdk/System/Library/Frameworks/Cocoa.framework; sourceTree = DEVELOPER_DIR; };
+		79A9DEDC89FE8336BF5FEDAAF75BF7FC /* Pods.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = Pods.modulemap; sourceTree = "<group>"; };
+		7A99A4A34BF0B95102E89A11D422B38B /* LiterateSwift-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "LiterateSwift-umbrella.h"; sourceTree = "<group>"; };
+		7C438C06BAE61F3F929B198B27479E18 /* CommonMark.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = CommonMark.xcconfig; sourceTree = "<group>"; };
+		821ED7AD67AFA8E24B1CB40C4E4EF2AD /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		842E263E35B6DFCC9EDCA3EA482305DC /* node.c */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.c; name = node.c; path = src/node.c; sourceTree = "<group>"; };
+		86231C4160BA36B946D63F8939787165 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		87B213035BAC5F75386F62D3C75D2342 /* Pods-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-acknowledgements.plist"; sourceTree = "<group>"; };
+		894E5DA93A9F359521A89826BE6DA777 /* Pods-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-dummy.m"; sourceTree = "<group>"; };
+		8DC6372149C747C1DFAB5217C0C6DF27 /* houdini.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = houdini.h; path = src/houdini.h; sourceTree = "<group>"; };
+		929857CCAD9DF86B0D95243C688DCDF9 /* cmark.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = cmark.h; path = src/cmark.h; sourceTree = "<group>"; };
+		977577C045EDA9D9D1F46E2598D19FC7 /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Pods.debug.xcconfig; sourceTree = "<group>"; };
+		9A0A95335D5E0C9045A57F3ADCB4C989 /* Node.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Node.swift; path = CommonMark/Node.swift; sourceTree = "<group>"; };
+		9AA3180694374A373206489945EAA65C /* xml.c */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.c; name = xml.c; path = src/xml.c; sourceTree = "<group>"; };
+		9CF81C3589AA9FAA64E6B11771B04FF9 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A0A5240568AC69B3516C7CCE5F814ADD /* bench.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = bench.h; path = src/bench.h; sourceTree = "<group>"; };
+		A31C721DBABE7C3B6285975C2B816709 /* cmark.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = cmark.xcconfig; sourceTree = "<group>"; };
+		A3E6288CDAB61EF0F6BDF86E2B268D6D /* LiterateSwift.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = LiterateSwift.swift; path = LiterateSwift/LiterateSwift.swift; sourceTree = "<group>"; };
+		A817FDC204E15B41C4DF8DA8DB1595BD /* parser.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = parser.h; path = src/parser.h; sourceTree = "<group>"; };
+		A8A08BBC97A4476F574B0964849B52B2 /* CommonMark.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = CommonMark.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		AA7F6C9DA8D6C611A90C1AAB001504DB /* CommonMark.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = CommonMark.modulemap; sourceTree = "<group>"; };
+		AAFD023DD38788C53B7F42136856E715 /* commonmark.c */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.c; name = commonmark.c; path = src/commonmark.c; sourceTree = "<group>"; };
+		AD87329234799149DA181F1282908240 /* cmark_version.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = cmark_version.h; path = build/src/cmark_version.h; sourceTree = "<group>"; };
+		B01D761A6F2862C4952E12A36147BFFB /* utf8.c */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.c; name = utf8.c; path = src/utf8.c; sourceTree = "<group>"; };
+		B076CEF5E39887F02B9B77FA746D40AC /* buffer.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = buffer.h; path = src/buffer.h; sourceTree = "<group>"; };
+		BA6428E9F66FD5A23C0A2E06ED26CD2F /* Podfile */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		BAC9169F6C16E723AFAB64399D7008A4 /* houdini_html_u.c */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.c; name = houdini_html_u.c; path = src/houdini_html_u.c; sourceTree = "<group>"; };
+		C17F99FDB0321439426E56BFF6918224 /* houdini_html_e.c */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.c; name = houdini_html_e.c; path = src/houdini_html_e.c; sourceTree = "<group>"; };
+		C6234945E26A0A9E54AA5193E62C41E0 /* CommonMark-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "CommonMark-umbrella.h"; sourceTree = "<group>"; };
+		CBC0F7C552B739C909B650A0F42F7F38 /* Pods-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-resources.sh"; sourceTree = "<group>"; };
+		CCC65B1DFB0A401179945B1DA3727C07 /* iterator.c */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.c; name = iterator.c; path = src/iterator.c; sourceTree = "<group>"; };
+		D0405803033A2A777B8E4DFA0C1800ED /* Pods-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-acknowledgements.markdown"; sourceTree = "<group>"; };
+		D341C0350426862B492B9614DB61926B /* inlines.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = inlines.h; path = src/inlines.h; sourceTree = "<group>"; };
+		D73FE40EDD932020B82C82FE0786E654 /* scanners.c */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.c; name = scanners.c; path = src/scanners.c; sourceTree = "<group>"; };
+		DA312349A49333542E6F4B36B329960E /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Pods.release.xcconfig; sourceTree = "<group>"; };
+		DCD327807646BAABBD1B360BBA39BDD7 /* cmark.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = cmark.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		DCD8FA1808FA38863AA51704D72CEA65 /* render.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = render.h; path = src/render.h; sourceTree = "<group>"; };
+		DFEE5BD6ECC210A88332EA1D0D50A924 /* chunk.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = chunk.h; path = src/chunk.h; sourceTree = "<group>"; };
+		E00AFF8243DCF5E10200AE8EF506FE60 /* html.c */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.c; name = html.c; path = src/html.c; sourceTree = "<group>"; };
+		E42D0DB8B4F3A2D58BBE1BA10FF6075F /* cmark_export.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = cmark_export.h; path = build/src/cmark_export.h; sourceTree = "<group>"; };
+		E43A838962B402129D0787C14FD00620 /* cmark-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "cmark-prefix.pch"; sourceTree = "<group>"; };
+		E44B848C162BA337767DE7C2A0707A17 /* cmark.c */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.c; name = cmark.c; path = src/cmark.c; sourceTree = "<group>"; };
+		E4E5944D8D7B2D724E94170B5DDE8C0E /* CommonMark-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "CommonMark-prefix.pch"; sourceTree = "<group>"; };
+		E7F21354943D9F42A70697D5A5EF72E9 /* Pods-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-frameworks.sh"; sourceTree = "<group>"; };
+		E8446514FBAD26C0E18F24A5715AEF67 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EA0AECDFCF1AAA245ABEC6427432F1EC /* cmark.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = cmark.modulemap; sourceTree = "<group>"; };
+		ED32EFA1944BAE69FB70D6C9063F5446 /* man.c */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.c; name = man.c; path = src/man.c; sourceTree = "<group>"; };
+		EE878F20A0DEF95F6F082CAAE58574AA /* CommonMark-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "CommonMark-dummy.m"; sourceTree = "<group>"; };
+		F4AA3BFB0459D2345E8D6C9F599630AA /* LiterateSwift.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = LiterateSwift.modulemap; sourceTree = "<group>"; };
+		F5DD2D3805F62857CD8BAB8C1BCEF612 /* LiterateSwift.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = LiterateSwift.xcconfig; sourceTree = "<group>"; };
+		F7AA91632078F2F5FEE6957FB9DBD865 /* LiterateSwift.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = LiterateSwift.h; path = LiterateSwift/LiterateSwift.h; sourceTree = "<group>"; };
+		FB24EB3AC655A5CE5B9AC1B00C574516 /* render.c */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.c; name = render.c; path = src/render.c; sourceTree = "<group>"; };
+		FB7FA73B01E791E54B7B4DCBED338CE1 /* references.c */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.c; name = references.c; path = src/references.c; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		58900D2E7CB2DFE2BBF4BAFAF621941C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F263FC4FFAA0E48902857520D2D225DE /* cmark.framework in Frameworks */,
+				03D315CEBEAF771F50D5AC2CBB0BEAD4 /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6CD956AF96D2507A8ECFCF939A62742E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4721ECAD20E6BE5A8229BFD69A711409 /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D924E9E0B44CA505572726B25A5A9617 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				051B8C934F8180931528A144F8CAADE6 /* Cocoa.framework in Frameworks */,
+				11FCEF993C1CBC8B3067CE4012A46F45 /* CommonMark.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DF760FBE026AB19117A94CDBE5A706C9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				78EDD48FDEA0A4DCE1E96770480AF0B1 /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0146511DAD3F208B6D42AB9E0534AA85 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				97736C41A09B396CA0F9431FDBF83F21 /* cmark */,
+				AD3D7FFD696F3C8D9E71273DA631CE67 /* CommonMark */,
+				2A88C499DD141FD5F1C83C1B069FDF48 /* LiterateSwift */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		2A88C499DD141FD5F1C83C1B069FDF48 /* LiterateSwift */ = {
+			isa = PBXGroup;
+			children = (
+				4DB7B436F0DE8A12C9CED8DD8B623FBD /* CLI.swift */,
+				113CA977AEDDCEB1DFF5806ED6E578BA /* Evaluation.swift */,
+				50F335E399B40E247564E2DA13DB891E /* Library.swift */,
+				F7AA91632078F2F5FEE6957FB9DBD865 /* LiterateSwift.h */,
+				A3E6288CDAB61EF0F6BDF86E2B268D6D /* LiterateSwift.swift */,
+				5D95A3740C1E1346F8737C9AA60D5416 /* Weave.swift */,
+				FD0E4A6725D480C9EBB223236B8598E1 /* Support Files */,
+			);
+			path = LiterateSwift;
+			sourceTree = "<group>";
+		};
+		6248FF180F661FC721DB82B1473F828F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				705FE516C540F402DDF9B930D2EC59D2 /* cmark.framework */,
+				4DADA166CE6E415C6CF215FB102F3263 /* CommonMark.framework */,
+				6F75C546C2C238AB94FE52237B38BF9F /* LiterateSwift.framework */,
+				36B30B64168EBEF635005FA4BCEFE305 /* Pods.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		75D98FF52E597A11900E131B6C4E1ADA /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				E8446514FBAD26C0E18F24A5715AEF67 /* Info.plist */,
+				79A9DEDC89FE8336BF5FEDAAF75BF7FC /* Pods.modulemap */,
+				D0405803033A2A777B8E4DFA0C1800ED /* Pods-acknowledgements.markdown */,
+				87B213035BAC5F75386F62D3C75D2342 /* Pods-acknowledgements.plist */,
+				894E5DA93A9F359521A89826BE6DA777 /* Pods-dummy.m */,
+				E7F21354943D9F42A70697D5A5EF72E9 /* Pods-frameworks.sh */,
+				CBC0F7C552B739C909B650A0F42F7F38 /* Pods-resources.sh */,
+				2BCC458FDD5F692BBB2BFC64BB5701FC /* Pods-umbrella.h */,
+				977577C045EDA9D9D1F46E2598D19FC7 /* Pods.debug.xcconfig */,
+				DA312349A49333542E6F4B36B329960E /* Pods.release.xcconfig */,
+			);
+			name = Pods;
+			path = "Target Support Files/Pods";
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				BA6428E9F66FD5A23C0A2E06ED26CD2F /* Podfile */,
+				F31D2B6FA1A36B2145C0380C413FDC20 /* Frameworks */,
+				0146511DAD3F208B6D42AB9E0534AA85 /* Pods */,
+				6248FF180F661FC721DB82B1473F828F /* Products */,
+				B7B80995527643776607AFFA75B91E24 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		8382B36A9A6BDEDE25EC356336A2734C /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				EA0AECDFCF1AAA245ABEC6427432F1EC /* cmark.modulemap */,
+				A31C721DBABE7C3B6285975C2B816709 /* cmark.xcconfig */,
+				418DDC426F2CEECB9B9625EACCD7A051 /* cmark-dummy.m */,
+				E43A838962B402129D0787C14FD00620 /* cmark-prefix.pch */,
+				24C14E6ED869A63EAC0BE0F69E711EC7 /* cmark-umbrella.h */,
+				9CF81C3589AA9FAA64E6B11771B04FF9 /* Info.plist */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/cmark";
+			sourceTree = "<group>";
+		};
+		97736C41A09B396CA0F9431FDBF83F21 /* cmark */ = {
+			isa = PBXGroup;
+			children = (
+				A0A5240568AC69B3516C7CCE5F814ADD /* bench.h */,
+				00D9FAC88471F4FF76E4F9CE40F2415B /* blocks.c */,
+				2BB503524BB7D79EAB5CF60A45C683D7 /* buffer.c */,
+				B076CEF5E39887F02B9B77FA746D40AC /* buffer.h */,
+				1A0F9180DC7CF1CFB4EDA8C57E39E119 /* case_fold_switch.inc */,
+				DFEE5BD6ECC210A88332EA1D0D50A924 /* chunk.h */,
+				E44B848C162BA337767DE7C2A0707A17 /* cmark.c */,
+				929857CCAD9DF86B0D95243C688DCDF9 /* cmark.h */,
+				5304999A66AB5C5386BF209B897DB1CD /* cmark_ctype.c */,
+				442A1666F6061E6AC7359AA668537A40 /* cmark_ctype.h */,
+				E42D0DB8B4F3A2D58BBE1BA10FF6075F /* cmark_export.h */,
+				AD87329234799149DA181F1282908240 /* cmark_version.h */,
+				AAFD023DD38788C53B7F42136856E715 /* commonmark.c */,
+				2E6A05373BD100E28BBAA36F86B2AC30 /* config.h */,
+				1CF328D28E0500126A7275F6DB5666FA /* entities.inc */,
+				8DC6372149C747C1DFAB5217C0C6DF27 /* houdini.h */,
+				4E0C1AFEF4E3B051B2C31376722BF397 /* houdini_href_e.c */,
+				C17F99FDB0321439426E56BFF6918224 /* houdini_html_e.c */,
+				BAC9169F6C16E723AFAB64399D7008A4 /* houdini_html_u.c */,
+				E00AFF8243DCF5E10200AE8EF506FE60 /* html.c */,
+				44176EE78B0C3B0AEBC71F9957FC5A2A /* inlines.c */,
+				D341C0350426862B492B9614DB61926B /* inlines.h */,
+				CCC65B1DFB0A401179945B1DA3727C07 /* iterator.c */,
+				5D3319D6345529DF62C987CE027AE290 /* iterator.h */,
+				3F3330FD3B6D8E6827F1B8CF5B94EDE1 /* latex.c */,
+				033CAD4829DF81E1EF28EB71670915F6 /* main.c */,
+				ED32EFA1944BAE69FB70D6C9063F5446 /* man.c */,
+				842E263E35B6DFCC9EDCA3EA482305DC /* node.c */,
+				534F7ABD7C08BB38FA9A769720ADE072 /* node.h */,
+				A817FDC204E15B41C4DF8DA8DB1595BD /* parser.h */,
+				FB7FA73B01E791E54B7B4DCBED338CE1 /* references.c */,
+				0FCDED9D174CDB7428845F7ADF1B0D7A /* references.h */,
+				FB24EB3AC655A5CE5B9AC1B00C574516 /* render.c */,
+				DCD8FA1808FA38863AA51704D72CEA65 /* render.h */,
+				D73FE40EDD932020B82C82FE0786E654 /* scanners.c */,
+				26501955D40C7A54B10C3039EE6CE3A0 /* scanners.h */,
+				B01D761A6F2862C4952E12A36147BFFB /* utf8.c */,
+				6950991904F4DAD2B813802F491FE734 /* utf8.h */,
+				9AA3180694374A373206489945EAA65C /* xml.c */,
+				8382B36A9A6BDEDE25EC356336A2734C /* Support Files */,
+			);
+			path = cmark;
+			sourceTree = "<group>";
+		};
+		ACB759C1CEA3D0414F3026EA58DD6904 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				AA7F6C9DA8D6C611A90C1AAB001504DB /* CommonMark.modulemap */,
+				7C438C06BAE61F3F929B198B27479E18 /* CommonMark.xcconfig */,
+				EE878F20A0DEF95F6F082CAAE58574AA /* CommonMark-dummy.m */,
+				E4E5944D8D7B2D724E94170B5DDE8C0E /* CommonMark-prefix.pch */,
+				C6234945E26A0A9E54AA5193E62C41E0 /* CommonMark-umbrella.h */,
+				86231C4160BA36B946D63F8939787165 /* Info.plist */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/CommonMark";
+			sourceTree = "<group>";
+		};
+		AD3D7FFD696F3C8D9E71273DA631CE67 /* CommonMark */ = {
+			isa = PBXGroup;
+			children = (
+				58D0AB1E2751EEDDE5576ABB83214F8A /* ASTOperations.swift */,
+				6FB63D30FE91F1F03D85FC7C6D352050 /* CommonMark.h */,
+				9A0A95335D5E0C9045A57F3ADCB4C989 /* Node.swift */,
+				2D566714DE732BF4D8EC3DC548D7F8EA /* SwiftAST.swift */,
+				ACB759C1CEA3D0414F3026EA58DD6904 /* Support Files */,
+			);
+			path = CommonMark;
+			sourceTree = "<group>";
+		};
+		AFBA4ED11A0F9B2B75137869439279F7 /* OS X */ = {
+			isa = PBXGroup;
+			children = (
+				759930A8385A74B2D7F321929F98BCFC /* Cocoa.framework */,
+			);
+			name = "OS X";
+			sourceTree = "<group>";
+		};
+		B7B80995527643776607AFFA75B91E24 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				75D98FF52E597A11900E131B6C4E1ADA /* Pods */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		F31D2B6FA1A36B2145C0380C413FDC20 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				DCD327807646BAABBD1B360BBA39BDD7 /* cmark.framework */,
+				A8A08BBC97A4476F574B0964849B52B2 /* CommonMark.framework */,
+				AFBA4ED11A0F9B2B75137869439279F7 /* OS X */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		FD0E4A6725D480C9EBB223236B8598E1 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				821ED7AD67AFA8E24B1CB40C4E4EF2AD /* Info.plist */,
+				F4AA3BFB0459D2345E8D6C9F599630AA /* LiterateSwift.modulemap */,
+				F5DD2D3805F62857CD8BAB8C1BCEF612 /* LiterateSwift.xcconfig */,
+				55EC1F8FE1FC019A16DCA699DC587259 /* LiterateSwift-dummy.m */,
+				7531D9651EDCF0BD87CC188A4222C31F /* LiterateSwift-prefix.pch */,
+				7A99A4A34BF0B95102E89A11D422B38B /* LiterateSwift-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/LiterateSwift";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		0B4C4300ECBBBA83A6265FCE6E943B06 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				77CB2BC79F1519F09DCEC4479669CFA9 /* Pods-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		321236C65E9D40687FD85C445B1B8D48 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4DF73654C51018385A9192198479A13A /* CommonMark-umbrella.h in Headers */,
+				F4064268240E88FBFB1A03684E5B6ED7 /* CommonMark.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		61E04C6C90D8AE294D4975743AC639F9 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B3C877254589AB17C804FD0A449D7DF3 /* bench.h in Headers */,
+				552F8270FFC3DC5AF00679B5596C0BE6 /* buffer.h in Headers */,
+				467B00236B9FD4AB721CDE287516A62D /* chunk.h in Headers */,
+				090513AD274CC87A51865D064AF66589 /* cmark-umbrella.h in Headers */,
+				F1E20A665F7C379D4FE64842900AA219 /* cmark.h in Headers */,
+				5B6A2C7376378780132BBF70CE572623 /* cmark_ctype.h in Headers */,
+				DEE628CF87BB3FD6A05DAF35E9775B01 /* cmark_export.h in Headers */,
+				873F9C98C6ADAA345F42273D83275A33 /* cmark_version.h in Headers */,
+				6BE821C1946700BC55687230682BCA45 /* config.h in Headers */,
+				1134731967313AAD4848022BFD15AEC3 /* houdini.h in Headers */,
+				B0E08C0FA4E575C7582C6FF071CC65CB /* inlines.h in Headers */,
+				2941B2C13CE524E653B2978F851F225A /* iterator.h in Headers */,
+				3FC6BF2F2CAB4A23821CF992F59525DF /* node.h in Headers */,
+				D7E6E6E2ABB6DE082B437C4A0E7381CB /* parser.h in Headers */,
+				A103EA11B68F5F4FC041F3CFA40256E7 /* references.h in Headers */,
+				AA2743C18444C7D5EFADF977A3DA732A /* render.h in Headers */,
+				FA1F131CE3ECC7B5AABFB921CAC701C4 /* scanners.h in Headers */,
+				FE104C44C93AAA5E46139249ED2CF1E0 /* utf8.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7554221F2DA6B14E63DF8CFF12F2F664 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				83F95854A75BD12BBF96AFB89544CB16 /* LiterateSwift-umbrella.h in Headers */,
+				B182D8F22E072BE566C46B1E79D08554 /* LiterateSwift.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		6EF00BC6AD6FE77B99C8FE0E0C924EBA /* cmark */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DE30192950641436E247EC69A0AF4736 /* Build configuration list for PBXNativeTarget "cmark" */;
+			buildPhases = (
+				2DFB1D80D88D131B7AFD558C430B7789 /* Sources */,
+				6CD956AF96D2507A8ECFCF939A62742E /* Frameworks */,
+				61E04C6C90D8AE294D4975743AC639F9 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = cmark;
+			productName = cmark;
+			productReference = 705FE516C540F402DDF9B930D2EC59D2 /* cmark.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		82AAB7DBA47E86B05B758814FA6D870B /* Pods */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6354D17EDF14DE94C358251FA598CF46 /* Build configuration list for PBXNativeTarget "Pods" */;
+			buildPhases = (
+				273816365F0FEA2F071484B58921F330 /* Sources */,
+				DF760FBE026AB19117A94CDBE5A706C9 /* Frameworks */,
+				0B4C4300ECBBBA83A6265FCE6E943B06 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6ACDBF326EF7FC091E1DFE14AD623115 /* PBXTargetDependency */,
+				ED38DC78FB362ED897AE2F99FDEEC1A5 /* PBXTargetDependency */,
+				194D2230B5B3BDF92E4C6977424C05F8 /* PBXTargetDependency */,
+			);
+			name = Pods;
+			productName = Pods;
+			productReference = 36B30B64168EBEF635005FA4BCEFE305 /* Pods.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		85BAD6FAD4E33B846C2BEDECE1068806 /* LiterateSwift */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 21E062F4DFF0704D630531FAB2F17587 /* Build configuration list for PBXNativeTarget "LiterateSwift" */;
+			buildPhases = (
+				1F66A151AE107F6851A3DDFD514061C4 /* Sources */,
+				D924E9E0B44CA505572726B25A5A9617 /* Frameworks */,
+				7554221F2DA6B14E63DF8CFF12F2F664 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				173A49916B738E6AD595515D141B43E7 /* PBXTargetDependency */,
+			);
+			name = LiterateSwift;
+			productName = LiterateSwift;
+			productReference = 6F75C546C2C238AB94FE52237B38BF9F /* LiterateSwift.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		9D5BBF8E9202CD117DE7E23E429F2773 /* CommonMark */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F4BFFF6E0E1099CDE191CC9B96D729F4 /* Build configuration list for PBXNativeTarget "CommonMark" */;
+			buildPhases = (
+				BC61DCBB94C9067CF5287AF04255B6B6 /* Sources */,
+				58900D2E7CB2DFE2BBF4BAFAF621941C /* Frameworks */,
+				321236C65E9D40687FD85C445B1B8D48 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F649AF229A5029E4FDA6A9AF3CED3D7F /* PBXTargetDependency */,
+			);
+			name = CommonMark;
+			productName = CommonMark;
+			productReference = 4DADA166CE6E415C6CF215FB102F3263 /* CommonMark.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0700;
+				LastUpgradeCheck = 0700;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = 6248FF180F661FC721DB82B1473F828F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				6EF00BC6AD6FE77B99C8FE0E0C924EBA /* cmark */,
+				9D5BBF8E9202CD117DE7E23E429F2773 /* CommonMark */,
+				85BAD6FAD4E33B846C2BEDECE1068806 /* LiterateSwift */,
+				82AAB7DBA47E86B05B758814FA6D870B /* Pods */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1F66A151AE107F6851A3DDFD514061C4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9164FDBF67CBB2EFAF3E9635DE4ACAE6 /* CLI.swift in Sources */,
+				A794347DC34DF1874EF7A8114CC2A30F /* Evaluation.swift in Sources */,
+				024FD8DF100090110BFFA3C61FD20388 /* Library.swift in Sources */,
+				12B49AD81AF1BB6E9DE43BDBDFF1A57D /* LiterateSwift-dummy.m in Sources */,
+				0B4CDD1B1218D7C27FC1653B8B611927 /* LiterateSwift.swift in Sources */,
+				AFCE7D4A7328E848A11635EF4821FBC9 /* Weave.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		273816365F0FEA2F071484B58921F330 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ABAE28DE8806CE12E46C39724A8DE33A /* Pods-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2DFB1D80D88D131B7AFD558C430B7789 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				39806EDFEF0029A5E9A4120C8FCE3A9C /* blocks.c in Sources */,
+				C04005FABD574EB4562A689852DFFB35 /* buffer.c in Sources */,
+				8FA9EDA5FC76E477D461AAD16FC6F26A /* case_fold_switch.inc in Sources */,
+				EBFE3156666B6F33C7147D1B5C8AD734 /* cmark-dummy.m in Sources */,
+				5332BCD8BCF79A6FC54EC693BB08A792 /* cmark.c in Sources */,
+				25C4C5382681A0917306B83CD1E621E5 /* cmark_ctype.c in Sources */,
+				04384D2DFC886751D6F7682C087CDEBC /* commonmark.c in Sources */,
+				77DE8B8A4E3EDAF5BE8888A90BA426D9 /* entities.inc in Sources */,
+				A1068EA174B813FAFEC1E4D091918736 /* houdini_href_e.c in Sources */,
+				62645BAF58FCBE2B3B0670DCECEADDDB /* houdini_html_e.c in Sources */,
+				8BB35B3DD6096486B730F12D36D01542 /* houdini_html_u.c in Sources */,
+				3BA789A11D1FC5BC84C23865F0CBB4EC /* html.c in Sources */,
+				7384203BB7A9D0C770C10F40D14B2877 /* inlines.c in Sources */,
+				BD1BB21ACB475C0AED3721F0FA654412 /* iterator.c in Sources */,
+				320D5503178F1AD2F6CB8AEAD8A726FF /* latex.c in Sources */,
+				2DEDFE883764C7EECEB4B1A10CAB0108 /* main.c in Sources */,
+				DEFC33AFAF9F86F1EADC93F098A3F30E /* man.c in Sources */,
+				7BCB342E8D8B6579CBB80F5975E23253 /* node.c in Sources */,
+				66414D139C9A307B45A706340D73A5BC /* references.c in Sources */,
+				BEAA504959123435BF6AF1AF6E9BF7CC /* render.c in Sources */,
+				1B4FBA38128052251E4945D6BF3F5369 /* scanners.c in Sources */,
+				EE09D79357C3FBFD361883DDB9CB08F0 /* utf8.c in Sources */,
+				849A48EE18C058EE286689404341CE9D /* xml.c in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BC61DCBB94C9067CF5287AF04255B6B6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				304F67F2D2E901B777DBEFC69EBCED7A /* ASTOperations.swift in Sources */,
+				70801ABCF80729621CDD787BAD433896 /* CommonMark-dummy.m in Sources */,
+				8EBCA9142577F2643980E813A968393F /* Node.swift in Sources */,
+				A157AC77920028675199A87316938DA2 /* SwiftAST.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		173A49916B738E6AD595515D141B43E7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = CommonMark;
+			target = 9D5BBF8E9202CD117DE7E23E429F2773 /* CommonMark */;
+			targetProxy = 8A084DF1DA1FECCE822D8CCDB757BFEB /* PBXContainerItemProxy */;
+		};
+		194D2230B5B3BDF92E4C6977424C05F8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = cmark;
+			target = 6EF00BC6AD6FE77B99C8FE0E0C924EBA /* cmark */;
+			targetProxy = 327FD7488479D69194A27D9052F1DB5C /* PBXContainerItemProxy */;
+		};
+		6ACDBF326EF7FC091E1DFE14AD623115 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = CommonMark;
+			target = 9D5BBF8E9202CD117DE7E23E429F2773 /* CommonMark */;
+			targetProxy = C0E872DDB5F07934C1ACAC9BFA1CDD8C /* PBXContainerItemProxy */;
+		};
+		ED38DC78FB362ED897AE2F99FDEEC1A5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = LiterateSwift;
+			target = 85BAD6FAD4E33B846C2BEDECE1068806 /* LiterateSwift */;
+			targetProxy = FFAF706CF9CC78F13A5D5EA81D980076 /* PBXContainerItemProxy */;
+		};
+		F649AF229A5029E4FDA6A9AF3CED3D7F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = cmark;
+			target = 6EF00BC6AD6FE77B99C8FE0E0C924EBA /* cmark */;
+			targetProxy = 3CD8D4241E0F2BB3EC0C29349F390010 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		1EF88C1915B27163830289B552F40E46 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7C438C06BAE61F3F929B198B27479E18 /* CommonMark.xcconfig */;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				FRAMEWORK_VERSION = A;
+				GCC_PREFIX_HEADER = "Target Support Files/CommonMark/CommonMark-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/CommonMark/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				MODULEMAP_FILE = "Target Support Files/CommonMark/CommonMark.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = CommonMark;
+				SDKROOT = macosx;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		3441A28189F78097FE74B6EBA6B0E7B6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F5DD2D3805F62857CD8BAB8C1BCEF612 /* LiterateSwift.xcconfig */;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				FRAMEWORK_VERSION = A;
+				GCC_PREFIX_HEADER = "Target Support Files/LiterateSwift/LiterateSwift-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/LiterateSwift/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				MODULEMAP_FILE = "Target Support Files/LiterateSwift/LiterateSwift.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = LiterateSwift;
+				SDKROOT = macosx;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		4414F9C8EF155755C73F520CF4E2B05C /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A31C721DBABE7C3B6285975C2B816709 /* cmark.xcconfig */;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				FRAMEWORK_VERSION = A;
+				GCC_PREFIX_HEADER = "Target Support Files/cmark/cmark-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/cmark/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				MODULEMAP_FILE = "Target Support Files/cmark/cmark.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = cmark;
+				SDKROOT = macosx;
+				SKIP_INSTALL = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		47E1839FF4F53C201004CB7B9992086E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A31C721DBABE7C3B6285975C2B816709 /* cmark.xcconfig */;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				FRAMEWORK_VERSION = A;
+				GCC_PREFIX_HEADER = "Target Support Files/cmark/cmark-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/cmark/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				MODULEMAP_FILE = "Target Support Files/cmark/cmark.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = cmark;
+				SDKROOT = macosx;
+				SKIP_INSTALL = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		4F3F168FDD54B546F2A84D583F3697A3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7C438C06BAE61F3F929B198B27479E18 /* CommonMark.xcconfig */;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				FRAMEWORK_VERSION = A;
+				GCC_PREFIX_HEADER = "Target Support Files/CommonMark/CommonMark-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/CommonMark/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				MODULEMAP_FILE = "Target Support Files/CommonMark/CommonMark.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = CommonMark;
+				SDKROOT = macosx;
+				SKIP_INSTALL = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		52D4ECB745D1C035F94BD060EE7F6605 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				ONLY_ACTIVE_ARCH = YES;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		652FD6BAC9656FDE54833ACE91BE392B /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F5DD2D3805F62857CD8BAB8C1BCEF612 /* LiterateSwift.xcconfig */;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				FRAMEWORK_VERSION = A;
+				GCC_PREFIX_HEADER = "Target Support Files/LiterateSwift/LiterateSwift-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/LiterateSwift/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				MODULEMAP_FILE = "Target Support Files/LiterateSwift/LiterateSwift.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = LiterateSwift;
+				SDKROOT = macosx;
+				SKIP_INSTALL = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		A070F153A04DD66F4E492261894B37FF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PREPROCESSOR_DEFINITIONS = "RELEASE=1";
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		AEAC1C8887A62B061FC601FA9DF7F7BB /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DA312349A49333542E6F4B36B329960E /* Pods.release.xcconfig */;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				FRAMEWORK_VERSION = A;
+				INFOPLIST_FILE = "Target Support Files/Pods/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				MODULEMAP_FILE = "Target Support Files/Pods/Pods.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_CFLAGS = "$(inherited)";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_NAME = Pods;
+				SDKROOT = macosx;
+				SKIP_INSTALL = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		DD8C7AE2910D1011B350FB0BEFBE3419 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 977577C045EDA9D9D1F46E2598D19FC7 /* Pods.debug.xcconfig */;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				FRAMEWORK_VERSION = A;
+				INFOPLIST_FILE = "Target Support Files/Pods/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				MODULEMAP_FILE = "Target Support Files/Pods/Pods.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_CFLAGS = "$(inherited)";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_NAME = Pods;
+				SDKROOT = macosx;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		21E062F4DFF0704D630531FAB2F17587 /* Build configuration list for PBXNativeTarget "LiterateSwift" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3441A28189F78097FE74B6EBA6B0E7B6 /* Debug */,
+				652FD6BAC9656FDE54833ACE91BE392B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				52D4ECB745D1C035F94BD060EE7F6605 /* Debug */,
+				A070F153A04DD66F4E492261894B37FF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6354D17EDF14DE94C358251FA598CF46 /* Build configuration list for PBXNativeTarget "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DD8C7AE2910D1011B350FB0BEFBE3419 /* Debug */,
+				AEAC1C8887A62B061FC601FA9DF7F7BB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DE30192950641436E247EC69A0AF4736 /* Build configuration list for PBXNativeTarget "cmark" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				47E1839FF4F53C201004CB7B9992086E /* Debug */,
+				4414F9C8EF155755C73F520CF4E2B05C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F4BFFF6E0E1099CDE191CC9B96D729F4 /* Build configuration list for PBXNativeTarget "CommonMark" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1EF88C1915B27163830289B552F40E46 /* Debug */,
+				4F3F168FDD54B546F2A84D583F3697A3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}

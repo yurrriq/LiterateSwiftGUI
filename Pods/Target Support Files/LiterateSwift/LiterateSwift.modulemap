@@ -1,0 +1,6 @@
+framework module LiterateSwift {
+  umbrella header "LiterateSwift-umbrella.h"
+
+  export *
+  module * { export * }
+}
