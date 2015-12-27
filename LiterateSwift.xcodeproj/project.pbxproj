@@ -7,10 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		38AEDE1ECA8E92FA1089C1F8 /* Pods.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 79038653B13468E0FDBBF5BC /* Pods.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
+		38AEDE1ECA8E92FA1089C1F8 /* Pods.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 79038653B13468E0FDBBF5BC /* Pods.framework */; };
+		6CA11D441C2F72DE00207059 /* WebKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6CA11D431C2F72DE00207059 /* WebKit.framework */; };
 		835A46FE1B59391500CFD860 /* LatexViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 835A46FD1B59391500CFD860 /* LatexViewController.swift */; };
 		835A47001B595C6400CFD860 /* Latex.swift in Sources */ = {isa = PBXBuildFile; fileRef = 835A46FF1B595C6400CFD860 /* Latex.swift */; };
-		837DB95B1B0F63B3007114EC /* WebKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 837DB95A1B0F63B3007114EC /* WebKit.framework */; };
 		838B51741B0F5C7C00137358 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 838B51731B0F5C7C00137358 /* AppDelegate.swift */; };
 		838B51761B0F5C7C00137358 /* RenderViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 838B51751B0F5C7C00137358 /* RenderViewController.swift */; };
 		838B51781B0F5C7C00137358 /* MarkdownDocument.swift in Sources */ = {isa = PBXBuildFile; fileRef = 838B51771B0F5C7C00137358 /* MarkdownDocument.swift */; };
@@ -23,10 +23,10 @@
 /* Begin PBXFileReference section */
 		171DE05A00B0AEE85D9C1990 /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
 		2EDCD4E6C331ECC1BC798717 /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
+		6CA11D431C2F72DE00207059 /* WebKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WebKit.framework; path = System/Library/Frameworks/WebKit.framework; sourceTree = SDKROOT; };
 		79038653B13468E0FDBBF5BC /* Pods.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		835A46FD1B59391500CFD860 /* LatexViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LatexViewController.swift; sourceTree = "<group>"; };
 		835A46FF1B595C6400CFD860 /* Latex.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Latex.swift; sourceTree = "<group>"; };
-		837DB95A1B0F63B3007114EC /* WebKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WebKit.framework; path = System/Library/Frameworks/WebKit.framework; sourceTree = SDKROOT; };
 		838B516E1B0F5C7C00137358 /* LiterateSwiftGUI.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LiterateSwiftGUI.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		838B51721B0F5C7C00137358 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		838B51731B0F5C7C00137358 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -43,7 +43,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				837DB95B1B0F63B3007114EC /* WebKit.framework in Frameworks */,
+				6CA11D441C2F72DE00207059 /* WebKit.framework in Frameworks */,
 				38AEDE1ECA8E92FA1089C1F8 /* Pods.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -54,7 +54,6 @@
 		838B51651B0F5C7C00137358 = {
 			isa = PBXGroup;
 			children = (
-				837DB95A1B0F63B3007114EC /* WebKit.framework */,
 				838B51701B0F5C7C00137358 /* LiterateSwift */,
 				838B516F1B0F5C7C00137358 /* Products */,
 				EF8F220F83C6FB0B2B7FA64C /* Pods */,
@@ -98,6 +97,7 @@
 		D1B1FE73359F91FAFDFBDCA1 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				6CA11D431C2F72DE00207059 /* WebKit.framework */,
 				79038653B13468E0FDBBF5BC /* Pods.framework */,
 			);
 			name = Frameworks;
@@ -125,6 +125,7 @@
 				838B516C1B0F5C7C00137358 /* Resources */,
 				4C4CC8570ECDC7D6330EEC26 /* Embed Pods Frameworks */,
 				57B028FC9D86306C81B8B4F3 /* Copy Pods Resources */,
+				6CA11D421C2F6CEA00207059 /* ShellScript */,
 			);
 			buildRules = (
 			);
@@ -142,7 +143,7 @@
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 0700;
-				LastUpgradeCheck = 0630;
+				LastUpgradeCheck = 0720;
 				ORGANIZATIONNAME = "Unsigned Integer";
 				TargetAttributes = {
 					838B516D1B0F5C7C00137358 = {
@@ -226,6 +227,19 @@
 			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
+		6CA11D421C2F6CEA00207059 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "if which swiftlint >/dev/null; then\nswiftlint\nelse\necho \"SwiftLint does not exist, download from https://github.com/realm/SwiftLint\"\nfi";
+		};
 /* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -278,6 +292,7 @@
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = dwarf;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_NO_COMMON_BLOCKS = YES;
@@ -343,13 +358,12 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				COMBINE_HIDPI_IMAGES = YES;
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(inherited)",
-					"$(PROJECT_DIR)/CommonMark/build/Debug",
-					"$(PROJECT_DIR)/LiterateSwiftFramework/build/Debug",
-				);
+				FRAMEWORK_SEARCH_PATHS = "$(inherited)";
 				INFOPLIST_FILE = LiterateSwift/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				OTHER_CFLAGS = "$(inherited)";
+				OTHER_LDFLAGS = "$(inherited)";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.unsignedinteger.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = LiterateSwiftGUI;
 			};
 			name = Debug;
@@ -360,13 +374,12 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				COMBINE_HIDPI_IMAGES = YES;
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(inherited)",
-					"$(PROJECT_DIR)/CommonMark/build/Debug",
-					"$(PROJECT_DIR)/LiterateSwiftFramework/build/Debug",
-				);
+				FRAMEWORK_SEARCH_PATHS = "$(inherited)";
 				INFOPLIST_FILE = LiterateSwift/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				OTHER_CFLAGS = "$(inherited)";
+				OTHER_LDFLAGS = "$(inherited)";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.unsignedinteger.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = LiterateSwiftGUI;
 			};
 			name = Release;
