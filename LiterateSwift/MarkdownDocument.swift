@@ -11,40 +11,44 @@ import CommonMark
 
 class MarkdownDocument: NSDocument {
 
-    private var node: Node? {
-        didSet {
-            let theElements = elements
-            dispatch_async(dispatch_get_main_queue()) {
-                for callback in self.callbacks {
-                    callback(theElements)
-                }
-            }
+  var callbacks: [[Block] -> ()] = []
+
+  var elements: [Block] {
+    return node?.elements ?? []
+  }
+
+  private var node: Node? {
+    didSet {
+      let theElements = elements
+      dispatch_async(dispatch_get_main_queue()) {
+        for callback in self.callbacks {
+          callback(theElements)
         }
+      }
     }
+  }
 
-    var elements: [Block] {
-        return node?.elements ?? []
-    }
+  override func makeWindowControllers() {
+    // Returns the Storyboard that contains your Document window.
+    let storyboard = NSStoryboard(name: "Main", bundle: nil)
+    if let
+      windowController = storyboard
+        .instantiateControllerWithIdentifier("Document Window Controller")
+        as? NSWindowController { return self.addWindowController(windowController) }
 
-    var callbacks: [[Block] -> ()] = []
+    assertionFailure("Failed to instantiate Document Window Controller")
+  }
 
-    override func makeWindowControllers() {
-        // Returns the Storyboard that contains your Document window.
-        let storyboard = NSStoryboard(name: "Main", bundle: nil)
-        let windowController = storyboard.instantiateControllerWithIdentifier("Document Window Controller") as! NSWindowController
-        self.addWindowController(windowController)
-    }
+  func reload() {
+    node = fileURL?.path.flatMap { Node(filename: $0) }
+  }
 
-    func reload() {
-        node = fileURL?.path.flatMap { Node(filename: $0) }
-    }
+  override func readFromURL(url: NSURL, ofType typeName: String) throws {
+    reload()
+  }
 
-    override func readFromURL(url: NSURL, ofType typeName: String) throws {
-        reload()
-    }
-
-    override func presentedItemDidChange() {
-        reload()
-    }
+  override func presentedItemDidChange() {
+    reload()
+  }
 
 }
